@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("const Burger = document.querySelector('.burger');\r\nif (Burger) {\r\n\tconst sideBar = document.querySelector('.sidebar');\r\n\r\n\tBurger.addEventListener(\"click\", function (e) {\r\n\t\tdocument.body.classList.toggle('_lock')\r\n\t\tBurger.classList.toggle(\"_active\");\r\n\t\tsideBar.classList.toggle(\"_active\");\r\n\t})\r\n}\r\nconsole.log('hello')\n\n//# sourceURL=webpack:///./src/assets/js/app.js?");
+eval("const Burger = document.querySelector('.burger');\r\nif (Burger) {\r\n\tconst sideBar = document.querySelector('.sidebar');\r\n\r\n\tBurger.addEventListener(\"click\", function (e) {\r\n\t\tdocument.body.classList.toggle('_lock')\r\n\t\tBurger.classList.toggle(\"_active\");\r\n\t\tsideBar.classList.toggle(\"_active\");\r\n\t})\r\n}\r\nconsole.log('hello')\r\n\n\n//# sourceURL=webpack:///./src/assets/js/app.js?");
 
 /***/ }),
 
