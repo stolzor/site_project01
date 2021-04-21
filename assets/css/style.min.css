@@ -486,7 +486,7 @@ a {
   @media (max-width: 480px) {
     .typeai {
       padding-top: 5rem;
-      max-width: 70%;
+      max-width: 78%;
       margin-left: 6.1rem; } }
 
 .typeai__title {
@@ -623,7 +623,7 @@ a {
       margin: 0px auto; } }
   @media (max-width: 480px) {
     .news {
-      max-width: 85%;
+      max-width: 78%;
       padding-top: 3rem; } }
 
 .news__row {
@@ -857,7 +857,7 @@ a {
   @media (max-width: 480px) {
     .news-start-page {
       padding-top: 5rem;
-      max-width: 70%;
+      max-width: 78%;
       margin: 0px auto; } }
 
 .news-start-page__title {
@@ -973,7 +973,7 @@ a {
 @media (max-width: 480px) {
   .history__body {
     padding-top: 5rem;
-    max-width: 60%;
+    max-width: 78%;
     margin-left: 7.6rem; } }
 
 .history__title {
@@ -1037,7 +1037,7 @@ a {
   @media (max-width: 480px) {
     .howto {
       padding-top: 5rem;
-      max-width: 60%;
+      max-width: 78%;
       margin-left: 7.5rem; } }
 
 .howto__title {
