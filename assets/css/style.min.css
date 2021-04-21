@@ -486,8 +486,8 @@ a {
   @media (max-width: 480px) {
     .typeai {
       padding-top: 5rem;
-      max-width: 78%;
-      margin-left: 6.1rem; } }
+      max-width: 80%;
+      margin-left: 7rem; } }
 
 .typeai__title {
   font-size: 6rem; }
@@ -695,8 +695,8 @@ a {
       margin-left: 5rem; } }
   @media (max-width: 480px) {
     .news__actual {
-      max-width: 68%;
-      margin-left: 5.8rem; } }
+      max-width: 90%;
+      margin-left: 5.5rem; } }
 
 .news__title {
   font-size: 3.1rem; }
