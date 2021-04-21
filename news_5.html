@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.min.css">
+	
+	<!-- Useful meta tags -->
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=0">
+	<meta name="robots" content="index, follow">
+	<meta name="google" content="notranslate">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="">
+	
+	<title>Нейронные сети</title></head>
+
+<body>
+	<div class="page">
+		<!-- Header -->
+		<div class="header">
+		
+			<ul class="nav__list">
+				<li class="nav__item" onclick="window.open('typeai.html','_newtab');"><a href="#" class="nav__item_link">Типы
+						нейронных сетей</a></li>
+				<li class="nav__item" onclick="window.open('newsd.html','_newtab');"><a href="#"
+						class="nav__item_link">Новости</a></li>
+				<li class="nav__item" onclick="window.open('history.html','_newtab');"><a href="#"
+						class="nav__item_link">История</a></li>
+				<li class="nav__item" onclick="window.open('index.html','_newtab');"><a href="#"
+						class="nav__item_link">Главная</a></li>
+				<li class="nav__item" onclick="window.open('howto.html','_newtab');"><a href="#" class="nav__item_link">Для
+						чего это нужно?</a></li>
+			</ul>
+		
+		
+		</div>
+		<div class="burger__body">
+			<button class="burger" type="button" id="sidebarToggle">
+				<span></span>
+			</button>
+		</div>
+		<div class="sidebar ">
+			<ul class="nav__sidebar__list">
+				<li class="nav__sidebar__item" onclick="window.open('typeai.html','_newtab');"><a href="#"
+						class="nav__item_link">Типы
+						нейронных сетей</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('newsd.html','_newtab');"><a href="#"
+						class="nav__item_link">Новости</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('history.html','_newtab');"><a href="#"
+						class="nav__item_link">История</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('index.html','_newtab');"><a href="#"
+						class="nav__item_link">Главная</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('howto.html','_newtab');"><a href="#"
+						class="nav__item_link">Для
+						чего это нужно?</a></li>
+			</ul>
+		</div>		<!-- Main  -->
+		<div class="news">
+			<div class="news__actual">
+				<div class="news__title">MeInGame: нейросеть генерирует игрового персонажа по изображению лица</div>
+				<div class="news__subtitle">15 февраля 2021
+		
+		
+					<a href="news.html">Новости</a>
+				</div>
+				<div class="news__image _4"><img src="assets/images/news1_4.png" alt="" class="news__text__image news_2"></div>
+				<div class="news__text">
+		
+					<p class="news__text__item">MeInGame — это нейросетевая модель, которая генерирует персонажа в игре по
+						одному изображению лица. Нейросеть предсказывает форму лица и его текстуру. Итоговое предсказание можно
+						внедрить в большинство существующих 3D игр. По результатам экспериментов, модель обходит альтернативные
+						подходы для генерации персонажей.</p>
+					<div class="news__title">Зачем это нужно</div>
+					<p class="news__text__item">Текущие системы для кастомизации игровых персонажей либо требуют от пользователя
+						ручной настройки игрока, либо ограничены в формах лица и текстурах. Методы, которые основываются на
+						архитектуре 3D Morphable Face Model (3DMM), могут точно восстанавливать 3D модели лица из изображения.
+						Однако сетки, которые такие модели генерируют, отличаются от сеток, которые используются в играх. Это
+						усложняет использование таких моделей в компьютерных играх.</p>
+					<p class="news__text__item">Кроме того, чтобы обучиться, текущие модели требуют большое количество данных
+						лицевой текстуры. Сбор таких датасетов является трудоемким и долгим. MeInGame требует меньшего
+						количества данных для обучения и может быть интегрирована в видеоигры. </p>
+					<div class="news__title">Подробнее про метод</div>
+		
+					<p class="news__text__item">
+					<ul class="news__text__item__list numeric">
+						<li class="news__text__item__list__item">Метод для сбора текстур, который не является трудозатратным;
+						</li>
+						<li class="news__text__item__list__item">Алгоритм переноса формы лица из формата 3DMM в формат, который
+							используется в играх;</li>
+						<li class="news__text__item__list__item">Пайплайн для обучения моделей 3D восстановления лица игровых
+							персонажей
+						</li>
+					</ul>
+					</p>
+					<p class="news__text__item">Предложенный метод может не только генерировать детализированные и реалистичные
+						лица игроков, сходные с
+						входными изображениями, но и делать модель устойчивой к освещению и окклюзиям. Исходный код проекта и
+						датасет доступны в <a href="https://github.com/FuxiCV/" class="news__text__item_github_2">открытом
+							репозитории на GitHub</a>.</p>
+					<p class="news__text__item last"><iframe width="980" height="500"
+							src="https://www.youtube.com/embed/597cvKOegfE" title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe></p>
+					<div class="news__text__item__author">Автор: <a href="https://neurohive.io/ru/author/bataeva-an/"
+							class="news__text__item__author__href">Anna</a></div>
+					<div class="news__text__item__author__source">Источник: <a href="https://arxiv.org/pdf/2102.02371v1.pdf"
+							class="news__text__item__author__href">https://arxiv.org/pdf/2102.02371v1.pdf</a>
+					</div>
+					<div class="news__text__item_github">GitHub: <a href=" https://github.com/FuxiCV/MeInGame"
+							class="news__text__item_github__href">
+							https://github.com/FuxiCV/MeInGame</a></div>
+				</div>
+			</div>
+			<div class="news__block">
+				<div class="news__row__title">Актуальные новости</div>
+				<div class="news__row">
+		
+					<div class="news__element news__element1">
+						<div class="news__content">
+							<div class="news__content__image" onclick="window.open('news.html','_newtab');"><img
+									src="assets/images/news1.png" alt="" class="news__content__image_block"></div>
+							<div class="news__content__title_block"><a href="news.html">Многослойная нормализация: новый метод
+									улучшения
+									эффективности нейронных сетей</a></div>
+							<div class="news__content__text_block">Новый алгоритм многослойной нормализации значительно
+								увеличивает точность распознавания эмоций по сигналу ...</div>
+						</div>
+					</div>
+					<div class="news__element news__element2">
+						<div class="news__content">
+							<div class="news__content__image"><img src="assets/images/news1_1.png" alt=""
+									class="news__content__image_block" onclick="window.open('news_2.html','_newtab');"></div>
+							<div class="news__content__title_block"><a href="news_2.html">Нейросеть генерирует изображения с
+									примеркой одежды</a></div>
+							<div class="news__content__text_block">PF-AFN — это нейросеть, которая генерирует изображения с
+								примеркой одежды. Модель принимает на вход изображение человека и ...</div>
+						</div>
+					</div>
+					<div class="news__element news__element3">
+						<div class="news__content">
+							<div class="news__content__image" onclick="window.open('news_3.html','_newtab');"><img
+									src="assets/images/news1_2.png" alt="" class="news__content__image_block"></div>
+							<div class="news__content__title_block"><a href="news_3.html">Новый метод переноса стиля ArtFlow
+									позволяет выполнять
+									стилизацию изображений без потерь</a></div>
+							<div class="news__content__text_block">ArtFlow — это фреймворк для переноса стиля изображения без
+								потерь с помощью обратимых нейронных потоков. Код в открытом доступе на Github.</div>
+						</div>
+					</div>
+					<div class="news__element news__element4">
+						<div class="news__content">
+							<div class="news__content__image" onclick="window.open('news_4.html','_newtab');"><img
+									src="assets/images/news1_3.png" alt="" class="news__content__image_block"></div>
+							<div class="news__content__title_block"><a href="news_4.html">В University of California робота
+									обучили манипулировать
+									тканью</a></div>
+							<div class="news__content__text_block">Исследователи из University of California и Honda Research
+								Institute обучили робота складывать ткань. Алгоритм основывается на фреймворке для обучения
+								визуальной динамики объектов на основе RGB изображений, — Visual Foresight ...</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="../assets/js/app.js"></script>
+</body>
+
+</html>

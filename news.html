@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.min.css">
+	
+	<!-- Useful meta tags -->
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=0">
+	<meta name="robots" content="index, follow">
+	<meta name="google" content="notranslate">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="">
+	
+	<title>Нейронные сети</title></head>
+
+<body>
+	<div class="page">
+		<!-- Header -->
+		<div class="header">
+		
+			<ul class="nav__list">
+				<li class="nav__item" onclick="window.open('typeai.html','_newtab');"><a href="#" class="nav__item_link">Типы
+						нейронных сетей</a></li>
+				<li class="nav__item" onclick="window.open('newsd.html','_newtab');"><a href="#"
+						class="nav__item_link">Новости</a></li>
+				<li class="nav__item" onclick="window.open('history.html','_newtab');"><a href="#"
+						class="nav__item_link">История</a></li>
+				<li class="nav__item" onclick="window.open('index.html','_newtab');"><a href="#"
+						class="nav__item_link">Главная</a></li>
+				<li class="nav__item" onclick="window.open('howto.html','_newtab');"><a href="#" class="nav__item_link">Для
+						чего это нужно?</a></li>
+			</ul>
+		
+		
+		</div>
+		<div class="burger__body">
+			<button class="burger" type="button" id="sidebarToggle">
+				<span></span>
+			</button>
+		</div>
+		<div class="sidebar ">
+			<ul class="nav__sidebar__list">
+				<li class="nav__sidebar__item" onclick="window.open('typeai.html','_newtab');"><a href="#"
+						class="nav__item_link">Типы
+						нейронных сетей</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('newsd.html','_newtab');"><a href="#"
+						class="nav__item_link">Новости</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('history.html','_newtab');"><a href="#"
+						class="nav__item_link">История</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('index.html','_newtab');"><a href="#"
+						class="nav__item_link">Главная</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('howto.html','_newtab');"><a href="#"
+						class="nav__item_link">Для
+						чего это нужно?</a></li>
+			</ul>
+		</div>		<!-- Main  -->
+		<div class="news">
+			<div class="news__actual">
+				<div class="news__title">Многослойная нормализация: новый метод улучшения эффективности нейронных сетей</div>
+				<div class="news__subtitle">16 апреля 2021 <a href="news.html">Новости</a></div>
+				<div class="news__image"><img src="assets/images/news1.png" alt="" class="news__text__image"></div>
+				<div class="news__text">
+					<p class="news__text__item">Новый алгоритм многослойной нормализации значительно увеличивает точность
+						распознавания эмоций по сигналу
+						электроэнцефалограммы (ЭЭГ) головного мозга. Нормализация признаков по различным участникам и
+						экспериментам,
+						лежащая в основе метода, позволяет снизить корреляции между распознанными эмоциями и отдельными
+						участниками
+						экспериментов.</p>
+		
+					<p class="news__text__item">Эффективность моделей машинного обучения, связанных с распознаванием эмоций на
+						основе сигналов ЭЭГ,
+						значительно ограничивает неоднородность данных, получаемых от разных пациентов, и даже данных одного и
+						того
+						же пациента, участвующего в нескольких экспериментах. Для решения этой проблемы в настоящее время
+						используются методы, основанные на длительной и сложной калибровке показаний ЭЭГ отдельных пациентов. В
+						новом исследовании предлагается альтернативный подход – алгоритм многослойной нормализации. Точность
+						распознавания эмоций нейронными сетями, обученными с использованием многослойной нормализации,
+						оказывается
+						значительно выше по сравнению с сетями, обученными с использованием пакетной нормализации.</p>
+		
+					<p class="news__text__item">Новый метод, схема которого представлена на рис. 1, состоит в нормализации
+						признаков по отдельным
+						участникам
+						и экспериментам. Для обучения модели исследователи использовали датасет, содержащий видеозаписи 15
+						пациентов, причем каждый пациент учувствовал в трех экспериментах. В ходе одного эксперимента
+						записывалось
+						по 15 видео с одним пациентом. Всем видеозаписям была предварительно присвоена эмоция присутствующего на
+						ней
+						участника (положительная, отрицательная или нейтральная).</p>
+					<img src="assets/images/news2.png" alt="" class="news__text__item_image">
+					<div class="news__text__item__image__subtitile">Рис. 1. Схема алгоритма многослойной нормализации.
+					</div>
+					<p class="news__text__item">Результаты работы нейронной сети без использования и с использованием
+						многослойной нормализации приведены
+						на рис. 2 и 3 соответственно. Как видно из рисунков, новый метод приводит к сильной локализации каждой
+						из эмоций в распределении. Также происходит значительное снижение корреляций между распознанными
+						эмоциями и отдельными участниками экспериментов. Данные результаты говорят о высокой эффективности
+						метода для решения различных задач распознавания эмоций. Помимо этого, многослойная нормализация может
+						использоваться для распознавания голоса и объектов.</p>
+					<img src="assets/images/news3.png" alt="" class="news__text__item_image">
+					<div class="news__text__item__image__subtitile">Рис. 2. Распределение распознанных эмоций (слева) и
+						участников экспериментов (справа) в нейронной сети, обученной с пакетной нормализацией.</div>
+					<img src="assets/images/news4.jpg" alt="" class="news__text__item_image">
+					<div class="news__text__item__image__subtitile">Рис. 3. Распределение распознанных эмоций (слева) и
+						участников экспериментов (справа) в нейронной сети, обученной с многослойной нормализацией.</div>
+					<p class="news__text__item last">ЭЭГ, в силу низкой стоимости и неинвазивности, является наиболее
+						перспективным
+						инструментом
+						детектирования эмоций. Метод многослойной нормализации открывает новые возможности для распознавания
+						эмоций, используемого в широком классе приложений, включая разработку интерфейсов мозг-компьютер,
+						улучшение алгоритмов интерактивного повествования и диагностику аффективных расстройств.</p>
+					<div class="news__text__item__author">Автор: <a href="https://neurohive.io/ru/author/pavelglek/	"
+							class="news__text__item__author__href">Павел
+							Глек</a></div>
+					<div class="news__text__item__author__source">Источник: <a
+							href="https://www.frontiersin.org/articles/10.3389/fnins.2021.626277/full"
+							class="news__text__item__author__href">https://www.frontiersin.org/articles/10.3389/fnins.2021.626277/full</a>
+					</div>
+				</div>
+			</div>
+			<div class="news__block">
+				<div class="news__row__title">Актуальные новости</div>
+				<div class="news__row">
+		
+					<div class="news__element news__element1">
+						<div class="news__content">
+							<div class="news__content__image" onclick="window.open('news_2.html','_newtab');"><img
+									src="assets/images/news1_1.png" alt="" class="news__content__image_block"></div>
+							<div class="news__content__title_block"><a href="news_2.html"> Нейросеть генерирует изображения с
+									примеркой одежды</a></div>
+							<div class="news__content__text_block">PF-AFN — это нейросеть, которая генерирует изображения с
+								примеркой одежды. Модель принимает на вход изображение человека и ...</div>
+						</div>
+					</div>
+					<div class="news__element news__element2">
+						<div class="news__content">
+							<div class="news__content__image" onclick="window.open('news_3.html','_newtab');"><img
+									src="assets/images/news1_2.png" alt="" class="news__content__image_block"></div>
+							<div class="news__content__title_block"><a href="news_3.html">Новый метод переноса стиля ArtFlow
+									позволяет выполнять
+									стилизацию изображений без потерь</a></div>
+							<div class="news__content__text_block">ArtFlow — это фреймворк для переноса стиля изображения без
+								потерь с помощью обратимых нейронных потоков. Код в открытом доступе на Github.</div>
+						</div>
+					</div>
+					<div class="news__element news__element3">
+						<div class="news__content">
+							<div class="news__content__image" onclick="window.open('news_4.html','_newtab');"><img
+									src="assets/images/news1_3.png" alt="" class="news__content__image_block"></div>
+							<div class="news__content__title_block"><a href="news_4.html">В University of California робота
+									обучили манипулировать
+									тканью</a></div>
+							<div class="news__content__text_block">Исследователи из University of California и Honda Research
+								Institute обучили робота складывать ткань. Алгоритм основывается на фреймворке для обучения
+								визуальной динамики объектов на основе RGB изображений, — Visual Foresight ...</div>
+						</div>
+					</div>
+					<div class="news__element news__element4">
+						<div class="news__content">
+							<div class="news__content__image" onclick="window.open('news_5.html','_newtab');"><img
+									src="assets/images/news1_4.png" alt="" class="news__content__image_block"></div>
+							<div class="news__content__title_block"><a href="news_5.html">MeInGame: нейросеть генерирует
+									игрового персонажа по
+									изображению лица</a></div>
+							<div class="news__content__text_block">MeInGame — это нейросетевая модель, которая генерирует
+								персонажа в игре по одному изображению лица. Нейросеть предсказывает форму лица и его текстуру
+								...</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="../assets/js/app.js"></script>
+</body>
+
+</html>

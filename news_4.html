@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.min.css">
+	
+	<!-- Useful meta tags -->
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=0">
+	<meta name="robots" content="index, follow">
+	<meta name="google" content="notranslate">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="">
+	
+	<title>Нейронные сети</title></head>
+
+<body>
+	<div class="page">
+		<!-- Header -->
+		<div class="header">
+		
+			<ul class="nav__list">
+				<li class="nav__item" onclick="window.open('typeai.html','_newtab');"><a href="#" class="nav__item_link">Типы
+						нейронных сетей</a></li>
+				<li class="nav__item" onclick="window.open('newsd.html','_newtab');"><a href="#"
+						class="nav__item_link">Новости</a></li>
+				<li class="nav__item" onclick="window.open('history.html','_newtab');"><a href="#"
+						class="nav__item_link">История</a></li>
+				<li class="nav__item" onclick="window.open('index.html','_newtab');"><a href="#"
+						class="nav__item_link">Главная</a></li>
+				<li class="nav__item" onclick="window.open('howto.html','_newtab');"><a href="#" class="nav__item_link">Для
+						чего это нужно?</a></li>
+			</ul>
+		
+		
+		</div>
+		<div class="burger__body">
+			<button class="burger" type="button" id="sidebarToggle">
+				<span></span>
+			</button>
+		</div>
+		<div class="sidebar ">
+			<ul class="nav__sidebar__list">
+				<li class="nav__sidebar__item" onclick="window.open('typeai.html','_newtab');"><a href="#"
+						class="nav__item_link">Типы
+						нейронных сетей</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('newsd.html','_newtab');"><a href="#"
+						class="nav__item_link">Новости</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('history.html','_newtab');"><a href="#"
+						class="nav__item_link">История</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('index.html','_newtab');"><a href="#"
+						class="nav__item_link">Главная</a></li>
+				<li class="nav__sidebar__item" onclick="window.open('howto.html','_newtab');"><a href="#"
+						class="nav__item_link">Для
+						чего это нужно?</a></li>
+			</ul>
+		</div>		<!-- Main  -->
+		<div class="news">
+			<div class="news__actual">
+				<div class="news__title">В University of California робота обучили манипулировать тканью</div>
+				<div class="news__subtitle">5 марта 2021
+		
+					<a href="news.html">Новости</a>
+				</div>
+				<div class="news__image"><img src="assets/images/news1_3.png" alt="" class="news__text__image news_2"></div>
+				<div class="news__text">
+					<p class="news__text__item">Исследователи из University of California и Honda Research Institute обучили
+						робота складывать ткань. Алгоритм основывается на фреймворке для обучения визуальной динамики объектов
+						на основе RGB изображений, — Visual Foresight. Такие роботы могут быть полезны в текстильной
+						промышленности и хирургии.</p>
+					<p class="news__text__item">Автоматизация работы с тканью имеет прикладную полезность в робототехнике,
+						текстильной промышленность, уходе за пожилыми и хирургии. Существующие методы для манипуляции тканью
+						разрабатываются для отдельных задач. Это затрудняет их масштабирование на схожие задачи из других
+						доменов.</p>
+					<div class="news__title">Подробнее про систему</div>
+					<p class="news__text__item">Чтобы выучить динамику ткани, использовали модифицированный фреймворк Visual
+						Foresight. Фреймворк можно переиспользовать в задаче манипуляции тканью с помощью одной политики для
+						RL-агента, условленной на конечную цель. В данном случае конечной целью является целевое положение
+						ткани. Исследователи расширили свой VisuoSpatial Foresight (VSF) фреймворк, который выучивает визуальную
+						динамику на случайно расположенных RGB изображениях из одного домена. Одновременно с динамикой VSF
+						выучивает карты глубины. Процесс обучения проходит в симуляции.</p>
+					<div class="news__title">Тестирование работы алгоритма</div>
+		
+					<p class="news__text__item">
+						В ранней работе VSF тестировали на многошаговых задачах разглаживания и складывания ткани. Систему
+						сравнивали с 5 базовыми подходами в симуляции и с помощью хирургического робота da Vinci Research Kit
+						(dVRK). В текущей работе в VSF меняли 4 аспекта: генерацию данных, выбор модели для визуальной динамики,
+						функционал ошибки и алгоритм оптимизации. По результатам экспериментов, обучение моделей визуальной
+						динамики на более длительных действиях улучшает эффективность моделей на задаче складывания ткани на
+						76%. VSF решает задачу складывания ткани с 90% точностью.
+					</p>
+					<p class="news__image"><img src="assets/images/news_1_3.jpg" alt="" class="news__text__image news_3"></p>
+					<div class="news__text__item__image__subtitile">Сравнение предсказанных траекторий сворачивания ткани с
+						целевыми</div>
+					<p class="news__text__item last"></p>
+					<div class="news__text__item__author">Автор: <a href="https://neurohive.io/ru/author/peter/"
+							class="news__text__item__author__href">Peter Shevchenko</a></div>
+					<div class="news__text__item__author__source">Источник: <a href="https://arxiv.org/abs/2103.16877v2"
+							class="news__text__item__author__href">https://arxiv.org/abs/2103.16877v2</a>
+					</div>
+					<div class="news__text__item_github">GitHub: <a href="https://github.com/pkuanjie/ArtFlow"
+							class="news__text__item_github__href">
+							https://github.com/pkuanjie/ArtFlow</a></div>
+				</div>
+			</div>
+			<div class="news__block">
+				<div class="news__row__title">Актуальные новости</div>
+				<div class="news__row">
+		
+					<div class="news__element news__element1">
+						<div class="news__content">
+							<div class="news__content__image" onclick="window.open('news.html','_newtab');"><img
+									src="assets/images/news1.png" alt="" class="news__content__image_block"></div>
+							<div class="news__content__title_block"><a href="news.html">Многослойная нормализация: новый метод
+									улучшения
+									эффективности нейронных сетей</a></div>
+							<div class="news__content__text_block">Новый алгоритм многослойной нормализации значительно
+								увеличивает точность распознавания эмоций по сигналу ...</div>
+						</div>
+					</div>
+					<div class="news__element news__element2">
+						<div class="news__content">
+							<div class="news__content__image"><img src="assets/images/news1_1.png" alt=""
+									class="news__content__image_block" onclick="window.open('news_2.html','_newtab');"></div>
+							<div class="news__content__title_block"><a href="news_2.html">Нейросеть генерирует изображения с
+									примеркой одежды</a></div>
+							<div class="news__content__text_block">PF-AFN — это нейросеть, которая генерирует изображения с
+								примеркой одежды. Модель принимает на вход изображение человека и ...</div>
+						</div>
+					</div>
+					<div class="news__element news__element3">
+						<div class="news__content">
+							<div class="news__content__image" onclick="window.open('news_3.html','_newtab');"><img
+									src="assets/images/news1_2.png" alt="" class="news__content__image_block"></div>
+							<div class="news__content__title_block"><a href="news_3.html">Новый метод переноса стиля ArtFlow
+									позволяет выполнять
+									стилизацию изображений без потерь</a></div>
+							<div class="news__content__text_block">ArtFlow — это фреймворк для переноса стиля изображения без
+								потерь с помощью обратимых нейронных потоков. Код в открытом доступе на Github.</div>
+						</div>
+					</div>
+					<div class="news__element news__element4">
+						<div class="news__content">
+							<div class="news__content__image" onclick="window.open('news_5.html','_newtab');"><img
+									src="assets/images/news1_4.png" alt="" class="news__content__image_block"></div>
+							<div class="news__content__title_block"><a href="news_5.html">MeInGame: нейросеть генерирует
+									игрового персонажа по
+									изображению лица</a></div>
+							<div class="news__content__text_block">MeInGame — это нейросетевая модель, которая генерирует
+								персонажа в игре по одному изображению лица. Нейросеть предсказывает форму лица и его текстуру
+								...</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="../assets/js/app.js"></script>
+</body>
+
+</html>
