@@ -729,12 +729,17 @@ a {
     padding-top: 2rem;
     max-width: 100%; } }
 
+@media (max-width: 480px) {
+  .news__image {
+    padding-top: 2rem;
+    width: 100%; } }
+
 .news__image .news_2 {
   max-width: 80rem; }
   @media (max-width: 480px) {
     .news__image .news_2 {
       padding-top: 2rem;
-      max-width: 100%; } }
+      width: 100%; } }
 
 .news__image._4 {
   margin-top: 3rem; }
@@ -785,7 +790,7 @@ a {
   @media (max-width: 480px) {
     .news__text__item_image {
       padding-top: 2rem;
-      max-width: 100%; } }
+      width: 100%; } }
 
 .news__text__item__image__subtitile {
   margin-top: 0.5rem;
