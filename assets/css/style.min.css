@@ -601,11 +601,13 @@ a {
   @media (max-width: 320px) {
     .typeai__foter {
       font-size: 1.2rem;
-      flex-direction: column; } }
+      flex-direction: column;
+      text-align: center; } }
   @media (max-width: 480px) {
     .typeai__foter {
       font-size: 1.2rem;
-      flex-direction: column; } }
+      flex-direction: column;
+      text-align: center; } }
   .typeai__foter a {
     color: blue;
     text-decoration: underline; }
