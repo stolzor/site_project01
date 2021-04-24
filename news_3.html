@@ -49,19 +49,33 @@
 		<div class="sidebar ">
 			<ul class="nav__sidebar__list">
 				<li class="nav__sidebar__item" onclick="window.open('typeai.html','_newtab');"><a href="#"
-						class="nav__item_link">Типы
+						class="nav__item_link sd">Типы
 						нейронных сетей</a></li>
 				<li class="nav__sidebar__item" onclick="window.open('newsd.html','_newtab');"><a href="#"
-						class="nav__item_link">Новости</a></li>
+						class="nav__item_link sd">Новости</a></li>
 				<li class="nav__sidebar__item" onclick="window.open('history.html','_newtab');"><a href="#"
-						class="nav__item_link">История</a></li>
+						class="nav__item_link sd">История</a></li>
 				<li class="nav__sidebar__item" onclick="window.open('index.html','_newtab');"><a href="#"
-						class="nav__item_link">Главная</a></li>
+						class="nav__item_link sd">Главная</a></li>
 				<li class="nav__sidebar__item" onclick="window.open('howto.html','_newtab');"><a href="#"
-						class="nav__item_link">Для
+						class="nav__item_link sd">Для
 						чего это нужно?</a></li>
 			</ul>
-		</div>		<!-- Main  -->
+			<div class="dark_light_theme list">
+				<img class="dark_light_theme__img" src="../assets/images/moon.png" alt="" id="icon1">
+			</div>
+		</div>
+		<script>
+			var icon1 = document.getElementById('icon');
+			icon1.onclick = function () {
+				document.body.classList.toggle('dark-theme');
+				if (document.body.classList.contains('dark-theme')) {
+					icon.src = '../assets/images/sun.png';
+				} else {
+					icon.src = '../assets/images/moon.png'
+				}
+			}
+		</script>		<!-- Main  -->
 		<div class="news">
 			<div class="news__actual">
 				<div class="news__title">Новый метод переноса стиля ArtFlow позволяет выполнять стилизацию изображений без
